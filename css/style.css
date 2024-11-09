@@ -97,6 +97,11 @@ nav {
   width: 30%;
   text-align: center;
   justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.info-mais:hover {
+  background-color: gray;
 }
 
 .info-mais a {
@@ -105,6 +110,11 @@ nav {
   align-self: center;
   text-decoration: none;
   color: #f7f7f7;
+  transition: background-color 0.3s ease;
+}
+
+.info-mais a:hover {
+  color: black;
 }
 
 /*seções produto, depoimento e faq*/
